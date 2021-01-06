@@ -14,7 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Adventures in Software Testing
+      title: russmorley.net
 
 description: Stylish Jekyll Theme
 author:
