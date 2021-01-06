@@ -1,0 +1,39 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: 
+google_analytics: UA-156558480-1
+title: Russell Morley
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Adventures in Software Testing
+
+description: Stylish Jekyll Theme
+author:
+  name: Russell Morley
+  email: russ.morley@gmail.com
+  github: Rusty84
+  twitter: rusty_rebel_
+  linkedin: russell-morley
+  bio: Senior QA Test Analyst | Automation Enthusiast
+  email_md5: 6f4dc49e6295c96626503a8d217493d2
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate
