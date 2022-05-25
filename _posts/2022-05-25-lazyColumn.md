@@ -8,13 +8,13 @@ comments: false
 ---
 For this tutorial, we will be looking at creating a scrollable list inside a LazyColumn<br>
 <br>
-If we wanted to display a large number of items or a list of an unknown length. Using a layout such as Column can cause performance issues, as all the items will be composed and laid out whether or not they are visible. 
+If we wanted to display a large number of items or a list of an unknown length. Using a layout such as Column can cause performance issues, as all the items will be composed and laid out whether or not they are visible. At an app launch for example.
 
 Jetpack Compose provides a set of components which only compose and lay out items which are visible in the component’s viewport. These components include LazyColumn. 
 <br>
 <h3>Lets Look at Some Code</h3> 
 <br>
-Here I have created a composable that shows some different variations of how OutlinedTextField could be used.
+Here I have created a composable that produces a scrollable list of 100 items, contained in a LazyColumn.
 <br>
 ```kotlin
 @Composable
